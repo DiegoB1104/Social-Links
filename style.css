@@ -98,9 +98,16 @@ body {
   }
 }
 
-@media (min-width: 401px) and (max-width: 600px) {
+@media (min-width: 390px) and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin-top: 90px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
   .container {
     width: 80%;
-    margin-top: 100px;
+    margin-top: 90px;
   }
 }
